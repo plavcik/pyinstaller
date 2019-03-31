@@ -46,6 +46,7 @@ variants = {
 DESTOS_TO_SYSTEM = {
     'linux': 'Linux',
     'freebsd': 'FreeBSD',
+    'openbsd': 'OpenBSD',
     'win32': 'Windows',
     'darwin': 'Darwin',
     'sunos': platform.system(),  ## FIXME: inhibits cross-compile
@@ -57,6 +58,7 @@ DESTOS_TO_SYSTEM = {
 SYSTEM_TO_BUILDOS = {
     'Linux': 'linux',
     'FreeBSD': 'freebsd',
+    'OpenBSD': 'openbsd',
     'Windows': 'win32',
     'Darwin': 'darwin',
     'Solaris': 'sunos',
